@@ -1,0 +1,48 @@
+# Secrets & lokale Konfiguration (nie committen)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+service-account*.json
+secrets/
+.secrets/
+
+# Optional später: API-Keys, Auth, Hosting
+# z. B. Vercel/Netlify-Tokens, CMS-Tokens, Auth.js secrets
+*.local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Abhängigkeiten & Build
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+build/
+.out/
+.next/
+.vercel/
+.netlify/
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Logs & temporäre Dateien
+*.log
+tmp/
+temp/
+.cache/
